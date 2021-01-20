@@ -1,0 +1,44 @@
+body{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.main-container{
+  
+    width:1440px;
+    height: 945px;
+    padding-right: center;
+    border-radius: 50px;
+    position: relative;
+    
+
+}
+.faq-container{
+    margin-left: center;
+    margin-top: 8rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 2rem 2rem rgba(29, 30, 53, .3);
+    background: #fff url(../images/bg-pattern-mobile.svg) no-repeat center 0;
+}
+.img-1{
+    position: absolute;
+ 
+    
+}
+.img-3{
+    display : block;
+ 
+}
